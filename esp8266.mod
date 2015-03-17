@@ -1,18 +1,20 @@
-PCBNEW-LibModule-V1  Tue 17 Mar 2015 09:09:41 PM CET
+PCBNEW-LibModule-V1  Tue 17 Mar 2015 10:16:45 PM CET
 # encoding utf-8
 Units mm
 $INDEX
 ESP-01
 ESP-03
+ESP-12
 $EndINDEX
 $MODULE ESP-01
-Po 0 0 0 15 550889F9 00000000 ~~
+Po 0 0 0 15 550899A4 00000000 ~~
 Li ESP-01
 Sc 0
 AR 
 Op 0 0 0
 T0 0 -5.08 1.016 1.016 0 0.2032 N V 21 N "U?"
 T1 0 -7.62 1.016 1.016 0 0.2032 N I 21 N "ESP-01"
+DS -5.5 -17 0.5 -17 0.15 21
 DS -1.5 -21.46 -0.5 -21.46 0.15 21
 DS -0.5 -21.46 -0.5 -17.96 0.15 21
 DS -0.5 -17.96 0.5 -17.96 0.15 21
@@ -89,17 +91,22 @@ Po 3.81 -1.27
 $EndPAD
 $EndMODULE ESP-01
 $MODULE ESP-03
-Po 0 0 0 15 55088047 00000000 ~~
+Po 0 0 0 15 55089814 00000000 ~~
 Li ESP-03
 Sc 0
 AR 
 Op 0 0 0
-T0 0 8.5 1 1 0 0.15 N V 21 N "ESP-03"
-T1 0 -5 1 1 0 0.15 N V 21 N "U?"
-DS -6.5 7 -6.5 10.5 0.15 21
-DS -6.5 10.5 6.5 10.5 0.15 21
-DS 6.5 10.5 6.5 7 0.15 21
-DS -6.5 -7 6.5 -7 0.15 21
+T0 0 2 1 1 0 0.15 N V 21 N "ESP-03"
+T1 0 -2 1 1 0 0.15 N V 21 N "U?"
+DS -5 -9 5 -9 0.15 21
+DS 5 -9 5 -8 0.15 21
+DS 5 -8 -5 -8 0.15 21
+DS -5 -8 -5 -9 0.15 21
+DS -5 -9 -5 -8.5 0.15 21
+DS -6.5 7 6.5 7 0.15 21
+DS -6.5 -7 -6.5 -10.5 0.15 21
+DS -6.5 -10.5 6.5 -10.5 0.15 21
+DS 6.5 -10.5 6.5 -7 0.15 21
 $PAD
 Sh "1" R 3 1 0 0 0
 Dr 0 0 0
@@ -199,4 +206,146 @@ Ne 0 ""
 Po 6.5 -6
 $EndPAD
 $EndMODULE ESP-03
+$MODULE ESP-12
+Po 0 0 0 15 550899B8 00000000 ~~
+Li ESP-12
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -2 1 1 0 0.15 N V 21 N "ESP-12"
+T1 0 -8 1 1 0 0.15 N V 21 N "U?"
+DS -5 -18.5 1 -18.5 0.15 21
+DS -5 -17.5 -5 -23 0.15 21
+DS -5 -23 -4 -23 0.15 21
+DS -4 -23 -4 -19.5 0.15 21
+DS -4 -19.5 -3 -19.5 0.15 21
+DS -3 -19.5 -3 -23 0.15 21
+DS -3 -23 -2 -23 0.15 21
+DS -2 -23 -2 -19.5 0.15 21
+DS -2 -19.5 -1 -19.5 0.15 21
+DS -1 -19.5 -1 -23 0.15 21
+DS -1 -23 0 -23 0.15 21
+DS 0 -23 0 -19.5 0.15 21
+DS 0 -19.5 1 -19.5 0.15 21
+DS 1 -19.5 1 -23 0.15 21
+DS 1 -23 4.5 -23 0.15 21
+DS -8 -17 -8 -24 0.15 21
+DS -8 -24 8 -24 0.15 21
+DS 8 -24 8 -17 0.15 21
+DS -8 -1 -8 0 0.15 21
+DS -8 0 8 0 0.15 21
+DS 8 0 8 -1 0.15 21
+$PAD
+Sh "1" R 3 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -8 -16
+$EndPAD
+$PAD
+Sh "2" R 3 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -8 -14
+$EndPAD
+$PAD
+Sh "3" R 3 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -8 -12
+$EndPAD
+$PAD
+Sh "4" R 3 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -8 -10
+$EndPAD
+$PAD
+Sh "5" R 3 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -8 -8
+$EndPAD
+$PAD
+Sh "6" R 3 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -8 -6
+$EndPAD
+$PAD
+Sh "7" R 3 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -8 -4
+$EndPAD
+$PAD
+Sh "8" R 3 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -8 -2
+$EndPAD
+$PAD
+Sh "9" R 3 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 8 -2
+$EndPAD
+$PAD
+Sh "10" R 3 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 8 -4
+$EndPAD
+$PAD
+Sh "11" R 3 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 8 -6
+$EndPAD
+$PAD
+Sh "12" R 3 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 8 -8
+$EndPAD
+$PAD
+Sh "13" R 3 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 8 -10
+$EndPAD
+$PAD
+Sh "14" R 3 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 8 -12
+$EndPAD
+$PAD
+Sh "15" R 3 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 8 -14
+$EndPAD
+$PAD
+Sh "16" R 3 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 8 -16
+$EndPAD
+$EndMODULE ESP-12
 $EndLIBRARY
