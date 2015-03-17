@@ -1,0 +1,139 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ws28xx
+LIBS:max490
+LIBS:samsung_rgb_led_5050_spmfct5606n0s0a1e0
+LIBS:esp8266
+LIBS:techinc-kicad-lib-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "17 mar 2015"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L WS2812 U?
+U 1 1 55084C1F
+P 3700 1850
+F 0 "U?" H 3700 2250 60  0000 C CNN
+F 1 "WS2812" H 3700 1500 60  0000 C CNN
+F 2 "~" H 3700 1850 60  0000 C CNN
+F 3 "~" H 3700 1850 60  0000 C CNN
+	1    3700 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L WS2812B U?
+U 1 1 55084C2E
+P 5000 1850
+F 0 "U?" H 5000 2100 60  0000 C CNN
+F 1 "WS2812B" H 5000 1600 60  0000 C CNN
+F 2 "~" H 5000 1850 60  0000 C CNN
+F 3 "~" H 5000 1850 60  0000 C CNN
+	1    5000 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MAX490 IC?
+U 1 1 55084CA0
+P 1850 3300
+F 0 "IC?" H 1850 3800 60  0000 C CNN
+F 1 "MAX490" H 1850 2800 60  0000 C CNN
+F 2 "~" H 1850 3300 60  0000 C CNN
+F 3 "~" H 1850 3300 60  0000 C CNN
+	1    1850 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SAMSUNG_RGB_LED_5050_SPMFCT5606N0S0A1E0 D?
+U 1 1 55084CAF
+P 3700 3350
+F 0 "D?" H 3700 3000 60  0000 C CNN
+F 1 "SAMSUNG_RGB_LED_5050_SPMFCT5606N0S0A1E0" H 3800 3650 60  0000 C CNN
+F 2 "~" H 3800 2350 60  0000 C CNN
+F 3 "~" H 3800 2350 60  0000 C CNN
+	1    3700 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L WS2801 IC?
+U 1 1 55085816
+P 1550 1800
+F 0 "IC?" H 1550 2300 60  0000 C CNN
+F 1 "WS2801" H 1550 1300 60  0000 C CNN
+F 2 "~" H 1550 1800 60  0000 C CNN
+F 3 "~" H 1550 1800 60  0000 C CNN
+	1    1550 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L WS2811 IC?
+U 1 1 55086D92
+P 2600 1850
+F 0 "IC?" H 2600 2200 60  0000 C CNN
+F 1 "WS2811" H 2600 1500 60  0000 C CNN
+F 2 "~" H 2600 1850 60  0000 C CNN
+F 3 "~" H 2600 1850 60  0000 C CNN
+	1    2600 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP-03 U?
+U 1 1 55088450
+P 3650 4550
+F 0 "U?" H 3650 5050 60  0000 C CNN
+F 1 "ESP-03" H 3650 4050 60  0000 C CNN
+F 2 "~" H 3650 4550 60  0000 C CNN
+F 3 "~" H 3650 4550 60  0000 C CNN
+	1    3650 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP-01 U?
+U 1 1 5508885F
+P 1800 4550
+F 0 "U?" H 1800 4900 60  0000 C CNN
+F 1 "ESP-01" H 1800 4200 60  0000 C CNN
+F 2 "~" H 1800 4550 60  0000 C CNN
+F 3 "~" H 1800 4550 60  0000 C CNN
+	1    1800 4550
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
