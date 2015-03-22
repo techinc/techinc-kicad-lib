@@ -1,0 +1,115 @@
+Cmp-Mod V01 Created by CvPcb (25-Oct-2014 BZR 4029)-stable date = Sat 21 Mar 2015 01:37:14 PM CET
+
+BeginCmp
+TimeStamp = /55084CAF;
+Reference = D1;
+ValeurCmp = SAMSUNG_RGB_LED_5050_SPMFCT5606N0S0A1E0;
+IdModule  = 5050RGB_LED;
+EndCmp
+
+BeginCmp
+TimeStamp = /55085816;
+Reference = IC1;
+ValeurCmp = WS2801;
+IdModule  = SO14E;
+EndCmp
+
+BeginCmp
+TimeStamp = /5508B567;
+Reference = IC2;
+ValeurCmp = MAX490;
+IdModule  = SO8E;
+EndCmp
+
+BeginCmp
+TimeStamp = /55086D92;
+Reference = IC3;
+ValeurCmp = WS2811;
+IdModule  = SO8E;
+EndCmp
+
+BeginCmp
+TimeStamp = /5508885F;
+Reference = U1;
+ValeurCmp = ESP-01;
+IdModule  = ESP-01;
+EndCmp
+
+BeginCmp
+TimeStamp = /5508BA93;
+Reference = U2;
+ValeurCmp = ESP-03;
+IdModule  = ESP-03;
+EndCmp
+
+BeginCmp
+TimeStamp = /55084C1F;
+Reference = U3;
+ValeurCmp = WS2812;
+IdModule  = WS2812;
+EndCmp
+
+BeginCmp
+TimeStamp = /55084C2E;
+Reference = U4;
+ValeurCmp = WS2812B;
+IdModule  = WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = /5508AE6C;
+Reference = U5;
+ValeurCmp = ESP-12;
+IdModule  = ESP-12;
+EndCmp
+
+BeginCmp
+TimeStamp = /5508BAA0;
+Reference = U6;
+ValeurCmp = ESP-07v1;
+IdModule  = ESP-07v1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5508BAA6;
+Reference = U7;
+ValeurCmp = ESP-08v1;
+IdModule  = ESP-08v1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5508AE7F;
+Reference = U8;
+ValeurCmp = ESP-08v2;
+IdModule  = ESP-08v2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5508AE79;
+Reference = U9;
+ValeurCmp = ESP-07v2;
+IdModule  = ESP-07v2;
+EndCmp
+
+BeginCmp
+TimeStamp = /550D6612;
+Reference = U10;
+ValeurCmp = ARDUINOSHIELD;
+IdModule  = arduinoshield;
+EndCmp
+
+BeginCmp
+TimeStamp = /550D661F;
+Reference = U11;
+ValeurCmp = ARDUINOSHIELD;
+IdModule  = arduinoshield_no_edges;
+EndCmp
+
+BeginCmp
+TimeStamp = /550D6639;
+Reference = U12;
+ValeurCmp = ARDUINOSHIELD;
+IdModule  = nanoshield_no_edges;
+EndCmp
+
+EndListe
