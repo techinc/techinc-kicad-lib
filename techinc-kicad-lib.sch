@@ -34,6 +34,7 @@ LIBS:max490
 LIBS:samsung_rgb_led_5050_spmfct5606n0s0a1e0
 LIBS:esp8266
 LIBS:arduino
+LIBS:nixie
 LIBS:techinc-kicad-lib-cache
 EELAYER 27 0
 EELAYER END
@@ -41,7 +42,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "21 mar 2015"
+Date "28 mar 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -223,6 +224,17 @@ F 1 "ARDUINOSHIELD" H 10050 600 60  0000 C CNN
 F 2 "~" H 10050 1600 60  0000 C CNN
 F 3 "~" H 10050 1600 60  0000 C CNN
 	1    10050 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L NH-14 U13
+U 1 1 5516DB97
+P 2100 3850
+F 0 "U13" H 2100 4650 60  0000 C CNN
+F 1 "NH-14" H 2100 3050 60  0000 C CNN
+F 2 "~" H 1750 3900 60  0000 C CNN
+F 3 "~" H 1750 3900 60  0000 C CNN
+	1    2100 3850
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

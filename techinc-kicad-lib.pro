@@ -1,11 +1,6 @@
-update=Sun 22 Mar 2015 01:04:42 AM CET
+update=Sat 28 Mar 2015 05:47:00 PM CET
 version=1
-last_client=eeschema
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+last_client=cvpcb
 [general]
 version=1
 [pcbnew]
@@ -28,7 +23,6 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -49,6 +43,8 @@ LibName17=ws28xx
 LibName18=esp8266
 LibName19=samsung_rgb_led_5050_spmfct5606n0s0a1e0
 LibName20=arduino
+LibName21=nixie
+LibDir=
 [eeschema]
 version=1
 LibDir=
@@ -93,3 +89,9 @@ LibName32=max490
 LibName33=samsung_rgb_led_5050_spmfct5606n0s0a1e0
 LibName34=esp8266
 LibName35=arduino
+LibName36=nixie
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
