@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /storage/archive/hardware/techinc-kicad-lib/techinc-kicad-lib.sch)
-    (date "Sat 28 Mar 2015 05:46:42 PM CET")
+    (date "Sat 28 Mar 2015 08:10:23 PM CET")
     (tool "eeschema (25-Oct-2014 BZR 4029)-stable"))
   (components
     (comp (ref U3)
@@ -85,11 +85,26 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 550D6639))
     (comp (ref U13)
-      (value NH-14)
-      (libsource (lib nixie) (part NH-14))
+      (value IN-14)
+      (libsource (lib nixie) (part IN-14))
       (sheetpath (names /) (tstamps /))
-      (tstamp 5516DB97)))
+      (tstamp 5516FC18)))
   (libparts
+    (libpart (lib max490) (part MAX490_DIP/SO)
+      (fields
+        (field (name Reference) IC)
+        (field (name Value) MAX490_DIP/SO)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name VCC) (type power_in))
+        (pin (num 2) (name RO) (type output))
+        (pin (num 3) (name DI) (type input))
+        (pin (num 4) (name GND) (type power_in))
+        (pin (num 5) (name Y) (type output))
+        (pin (num 6) (name Z) (type output))
+        (pin (num 7) (name B) (type input))
+        (pin (num 8) (name A) (type input))))
     (libpart (lib ws28xx) (part WS2801)
       (fields
         (field (name Reference) IC)
@@ -111,21 +126,6 @@
         (pin (num 12) (name SDO) (type output))
         (pin (num 13) (name CKO) (type output))
         (pin (num 14) (name VCC) (type power_in))))
-    (libpart (lib max490) (part MAX490_DIP/SO)
-      (fields
-        (field (name Reference) IC)
-        (field (name Value) MAX490_DIP/SO)
-        (field (name Footprint) ~)
-        (field (name Datasheet) ~))
-      (pins
-        (pin (num 1) (name VCC) (type power_in))
-        (pin (num 2) (name RO) (type output))
-        (pin (num 3) (name DI) (type input))
-        (pin (num 4) (name GND) (type power_in))
-        (pin (num 5) (name Y) (type output))
-        (pin (num 6) (name Z) (type output))
-        (pin (num 7) (name B) (type input))
-        (pin (num 8) (name A) (type input))))
     (libpart (lib ws28xx) (part WS2811)
       (fields
         (field (name Reference) IC)
@@ -273,10 +273,10 @@
         (pin (num 14) (name GPIO4) (type input))
         (pin (num 15) (name RXD) (type input))
         (pin (num 16) (name TXD) (type output))))
-    (libpart (lib nixie) (part NH-14)
+    (libpart (lib nixie) (part IN-14)
       (fields
         (field (name Reference) U)
-        (field (name Value) NH-14)
+        (field (name Value) IN-14)
         (field (name Footprint) ~)
         (field (name Datasheet) ~))
       (pins

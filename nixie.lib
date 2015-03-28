@@ -1,11 +1,11 @@
-EESchema-LIBRARY Version 2.3  Date: Sat 28 Mar 2015 05:46:06 PM CET
+EESchema-LIBRARY Version 2.3  Date: Sat 28 Mar 2015 08:07:23 PM CET
 #encoding utf-8
 #
-# NH-14
+# IN-14
 #
-DEF NH-14 U 0 40 Y Y 1 F N
+DEF IN-14 U 0 40 Y Y 1 F N
 F0 "U" 0 800 60 H V C CNN
-F1 "NH-14" 0 -800 60 H V C CNN
+F1 "IN-14" 0 -800 60 H V C CNN
 F2 "~" -350 50 60 H V C CNN
 F3 "~" -350 50 60 H V C CNN
 DRAW

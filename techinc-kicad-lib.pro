@@ -1,8 +1,6 @@
-update=Sat 28 Mar 2015 05:47:00 PM CET
+update=Sat 28 Mar 2015 08:11:53 PM CET
 version=1
-last_client=cvpcb
-[general]
-version=1
+last_client=kicad
 [pcbnew]
 version=1
 LastNetListRead=
@@ -95,3 +93,5 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
+[general]
+version=1

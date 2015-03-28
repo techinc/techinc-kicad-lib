@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (25-Oct-2014 BZR 4029)-stable date = Sat 28 Mar 2015 05:47:14 PM CET
+Cmp-Mod V01 Created by CvPcb (25-Oct-2014 BZR 4029)-stable date = Sat 28 Mar 2015 08:10:43 PM CET
 
 BeginCmp
 TimeStamp = /55084CAF;
@@ -113,10 +113,10 @@ IdModule  = nanoshield_no_edges;
 EndCmp
 
 BeginCmp
-TimeStamp = /5516DB97;
+TimeStamp = /5516FC18;
 Reference = U13;
-ValeurCmp = NH-14;
-IdModule  = NH-14;
+ValeurCmp = IN-14;
+IdModule  = IN-14;
 EndCmp
 
 EndListe
