@@ -1,6 +1,6 @@
-update=Sat 28 Mar 2015 08:11:53 PM CET
+update=Tue 31 Mar 2015 09:51:51 PM CEST
 version=1
-last_client=kicad
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -43,6 +43,13 @@ LibName19=samsung_rgb_led_5050_spmfct5606n0s0a1e0
 LibName20=arduino
 LibName21=nixie
 LibDir=
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -88,10 +95,4 @@ LibName33=samsung_rgb_led_5050_spmfct5606n0s0a1e0
 LibName34=esp8266
 LibName35=arduino
 LibName36=nixie
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
-[general]
-version=1
+LibName37=lm6206

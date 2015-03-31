@@ -35,6 +35,7 @@ LIBS:samsung_rgb_led_5050_spmfct5606n0s0a1e0
 LIBS:esp8266
 LIBS:arduino
 LIBS:nixie
+LIBS:lm6206
 LIBS:techinc-kicad-lib-cache
 EELAYER 27 0
 EELAYER END
@@ -42,7 +43,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "28 mar 2015"
+Date "31 mar 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -235,6 +236,17 @@ F 1 "IN-14" H 1750 2900 60  0000 C CNN
 F 2 "~" H 1400 3750 60  0000 C CNN
 F 3 "~" H 1400 3750 60  0000 C CNN
 	1    1750 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM6206 U14
+U 1 1 551AFB4D
+P 3050 4450
+F 0 "U14" H 2850 4250 40  0000 C CNN
+F 1 "LM6206" H 3050 4250 40  0000 L CNN
+F 2 "SOT23" H 3050 4350 30  0000 C CIN
+F 3 "~" H 3050 4450 60  0000 C CNN
+	1    3050 4450
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
